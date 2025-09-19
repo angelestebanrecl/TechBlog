@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de contacto">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Contacto</title>
+</head>
+<body>
+     <main>
+    <h2>Contacto</h2>
+    <form action="#" method="post">
+     
+      <input 
+        type="text" 
+        name="nombre" 
+        placeholder="Escribe tu nombre" 
+        value="" 
+        required>
+
+    
+      <input 
+        type="email" 
+        name="correo" 
+        placeholder="ejemplo@mail.com" 
+        value="" 
+        required>
+
+    
+      <input 
+        type="number" 
+        name="edad" 
+        placeholder="Tu edad" 
+        value="">
+
+    
+      <select name="tema" required>
+        <option value="">-- Selecciona un tema --</option>
+        <option value="soporte">Soporte Técnico</option>
+        <option value="ventas">Ventas</option>
+        <option value="informacion">Más Información</option>
+      </select>
+
+      
+      <textarea 
+        name="mensaje" 
+        placeholder="Escribe tu mensaje" 
+        required></textarea>
+
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+    
+</body>
+</html>
